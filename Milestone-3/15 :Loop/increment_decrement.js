@@ -24,7 +24,6 @@ for(let i=0;i<=a;i++){
     console.log(i);
 }
 
-
 let num = 1;
 let sum = 0;
 while(num <= 10){
@@ -33,7 +32,6 @@ while(num <= 10){
     console.log('sum:', sum);
     num++;
 }
-
 
 
 const number = 7;
@@ -50,3 +48,4 @@ while(num1 < 5){ // loop condition
     // num1 += 1;
     num1++;
 }
+

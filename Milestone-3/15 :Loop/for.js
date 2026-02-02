@@ -49,3 +49,5 @@ console.log('sum of numbers from 11 to 20 is', sum);
 for(let num = 0; num < 5; num++){
     console.log(num);
 }
+
+

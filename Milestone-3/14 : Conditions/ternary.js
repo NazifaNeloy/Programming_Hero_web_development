@@ -8,13 +8,15 @@
 
 const age = 112;
 
-// normal if-else
-// if(age >=18){
-//     console.log('You can vote.')
-// }
-// else {
-//     console.log('Ghumai thako')
-// }
+/* normal if-else
+
+if(age >=18){
+   console.log('You can vote.')
+}
+ else {
+    console.log('Ghumai thako')
+}
+*/ 
 
 // simple ternary
 age >= 18 ? console.log('Vote Dio') : console.log('Ghumai thako')
