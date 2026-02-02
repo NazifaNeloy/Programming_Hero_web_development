@@ -1,0 +1,58 @@
+//case
+
+const school = 'RAJ UK Uttara Model School';
+
+console.log(school);
+console.log(school.toLowerCase());
+console.log(school.toUpperCase());
+
+// uppercase: ABCD EFG
+// lowercase: abcd efg
+
+const subject = 'Chemistry';
+const book = 'ChemIsTry';
+
+if(subject.toLowerCase() === book.toLowerCase()){
+    console.log('I am reading book aibar porikkhai fatai felmu');
+}
+else {
+    console.log('hudai hudai prista ultai ar vat khawar jonno');
+}
+
+const drink = ' water';
+const liquid = 'water '
+
+if(drink.trim() === liquid.trim()){
+    console.log('pani er opor nam Life');
+}
+else {
+    console.log('somudre pani ase khaite pari na')
+}
+
+
+
+
+//concat
+
+const first = 'Abid';
+const last = 'Navid';
+
+// const fullName = first + last;
+const fullName = first + ' ' + last;
+// console.log(fullName);
+const fullName2 = first.concat(' ').concat(last)
+console.log(fullName2);
+
+// includes
+
+console.log(last.includes('x'))
+
+
+//declare
+const pen = { brand: 'econo', price: 10, color: 'black' }
+const pencil = new Object()
+console.log(pencil)
+const rubber = Object.create({})
+console.log(rubber)
+
+// using new 
