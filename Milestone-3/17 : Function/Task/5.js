@@ -6,7 +6,9 @@ Write a function called odd_even() which takes an integer value and tells whethe
 function odd_even(num) {
     if (num % 2 === 0) {
         return "Even";
-    } else {
+    } 
+    
+    else {
         return "Odd";
     }
 }
