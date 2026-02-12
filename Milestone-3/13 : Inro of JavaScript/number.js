@@ -55,6 +55,8 @@ console.log(orangePrice + Number('22.5'));
 console.log(orangePrice + +'22.5');
 
 // 4. Using Math.round after addition
+var first =5.1;
+var second =0.3;
 console.log(Math.round(first + second)); 
 
 

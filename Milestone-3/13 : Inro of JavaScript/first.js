@@ -31,8 +31,12 @@ let arr = [33];
 console.log(arr[0]);
 
 //From an object
-let obj = { value: 33 };
+let obj = { 
+  value: 33,
+  age: 20
+};
 console.log(obj.value);
+console.log(obj.age);
 
 // Using Math
 console.log(Math.sqrt(1089)); // 33

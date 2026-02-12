@@ -5,7 +5,6 @@ function inchToFeet(inch) {
     return feet;
 }
 
-// ignore this one
 function inchToFeet2(inch) {
     const feetFraction = inch / 12;
     const feetNumber = parseInt(feetFraction);

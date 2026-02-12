@@ -23,7 +23,9 @@ function oddAverage(numbers) {
         sum = sum + number;
     }
     const count = odds.length;
+    
     console.log(sum, count);
+
     const avg = sum / count;
     return avg;
 }

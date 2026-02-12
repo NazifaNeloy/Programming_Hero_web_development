@@ -15,7 +15,8 @@ Create a JavaScript program that calculates the Body Mass Index (BMI) and assign
 let weight = 70; 
 let height = 1.75; 
 
-let bmi = weight / (height ** 2); 
+let bmi = weight / (height ** 2); //height ** 2 means height squared .** is the exponentiation operator
+
 bmi = bmi.toFixed(2); 
 
 console.log("Your BMI is:", bmi);
