@@ -19,14 +19,14 @@ const products = [
     {id: 7, name: 'Nokia old age Phone gone', price: 19000},
     {id: 8, name: 'Phone one', price: 19000},
     {id: 8, name: 'M1 chip not cheap LapTOP', price: 19000},
-];
+]
 
  for(const product of products){
     console.log(product);
 }
 
 function matchedProducts (products, search){
-    const matched = [];
+    const matched = ;
     for(const product of products){
         if(product.name.toLowerCase().includes(search.toLowerCase())){
             matched.push(product);
